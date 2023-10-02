@@ -229,7 +229,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 424314, guid: 85de8c5eef336ad48900b2ac3e7bf65d, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 424314, guid: 85de8c5eef336ad48900b2ac3e7bf65d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -435,6 +435,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 475985833}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &523902358 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: fc01a3bb589cebc4aa10892db165243b, type: 3}
+  m_PrefabInstance: {fileID: 1247572556}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &523902359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523902358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de4d9a3ae31be45f689590c50235c0d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  horizontalInput: 0
+  speed: 10
+  xRange: 10
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -486,7 +506,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 45
+  field of view: 99
   orthographic: 0
   orthographic size: 10
   m_Depth: -1
@@ -560,11 +580,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fc01a3bb589cebc4aa10892db165243b, type: 3}
       propertyPath: m_Name
-      value: SimpleFarmer_Man_02_Black
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc01a3bb589cebc4aa10892db165243b, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc01a3bb589cebc4aa10892db165243b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -702,7 +722,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ca03aa5ab3af9f147aa60e7b8d131fe3, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ca03aa5ab3af9f147aa60e7b8d131fe3, type: 3}
       propertyPath: m_LocalScale.x
@@ -771,7 +791,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 426750, guid: 957efc93c4488964582c89c0bf939bf0, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 426750, guid: 957efc93c4488964582c89c0bf939bf0, type: 3}
       propertyPath: m_LocalPosition.x
