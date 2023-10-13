@@ -316,6 +316,7 @@
 /define:UNITY_TEAM_LICENSE
 /define:USE_SEARCH_ENGINE_API
 "Assets/Scripts/DestroyOutOfBounds.cs"
+"Assets/Scripts/DetectCollision.cs"
 "Assets/Scripts/MoveForward.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/SpawnManager.cs"

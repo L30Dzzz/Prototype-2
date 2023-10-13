@@ -1230,6 +1230,7 @@ GameObject:
   - component: {fileID: 3548817758213571383}
   - component: {fileID: 6193034729153474919}
   - component: {fileID: 7412787482815612839}
+  - component: {fileID: -4870267197915680739}
   m_Layer: 0
   m_Name: Cow
   m_TagString: Untagged
@@ -1296,6 +1297,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0dea3eecab414f32a9653aaa394928a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &-4870267197915680739
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6524315025205261478}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: -11.55, y: 27.5, z: 41.69}
+  m_Center: {x: 0, y: 14.3, z: -3.7}
 --- !u!1 &6723662617673581131
 GameObject:
   m_ObjectHideFlags: 0
