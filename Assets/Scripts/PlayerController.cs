@@ -55,5 +55,14 @@ public class PlayerController : MonoBehaviour
         transform.Translate(Vector3.forward * verticalInput * Time.deltaTime * speed);
     
     }
+        
+        private void OnTriggerEnter(Collider other)
+    {
+        // if player collides with animal, death
+        if (other.gameObject.CompareTag("Animal"))
+        {
+            Destroy(other.gameObject);
+        }
+    }
 
 }
