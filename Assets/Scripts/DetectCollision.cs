@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DetectCollision : MonoBehaviour
 {
+    public int score = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +20,13 @@ public class DetectCollision : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        Destroy(gameObject);
-        Destroy(other.gameObject);
+        if (other.gameObject.CompareTag("Animal"))
+        {
+            Destroy(gameObject);
+            Destroy(other.gameObject);
+            
+            Debug.Log("Score: " + score);
+            score += 1;
+        }
     }
 }

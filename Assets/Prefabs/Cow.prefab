@@ -1233,7 +1233,7 @@ GameObject:
   - component: {fileID: -4870267197915680739}
   m_Layer: 0
   m_Name: Cow
-  m_TagString: Untagged
+  m_TagString: Animal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1284,7 +1284,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6e5b72b67fee409d87875037d8130a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 10
 --- !u!114 &7412787482815612839
 MonoBehaviour:
   m_ObjectHideFlags: 0
