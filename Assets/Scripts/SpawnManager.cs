@@ -32,8 +32,20 @@ public class SpawnManager : MonoBehaviour
             int animalIndex = Random.Range(0, animalPrefabs.Length);
             Instantiate(animalPrefabs[animalIndex], spawnPos, animalPrefabs[animalIndex].transform.rotation);
 
-        Vector3 spawnPosLeft = new Vector3(Random.Range(spawnPosX, spawnRangeZ), 0, -spawnRangeZ);
-            int animalIndexLeft  = Random.Range(0, animalPrefabs.Length);
-            Instantiate(animalPrefabs[animalIndex], spawnPos, animalPrefabs[animalIndex].transform.rotation);
+        
     }
+
+    //void SpawnAnimalsLeft()
+    //{
+        //Vector3 spawnPosLeft = new Vector3(Random.Range(spawnPosX, spawnRangeZ), 0, -spawnRangeZ);
+            //int animalIndexLeft  = Random.Range(0, animalPrefabs.Length);
+            //Instantiate(animalPrefabs[animalIndex], spawnPos, animalPrefabs[animalIndex].transform.rotation);
+    //}
+
+    //void SpawnAnimalsRight()
+   // {
+        //Vector3 spawnPosLeft = new Vector3(spawnPosX, 0, Random.Range(spawnPosX, spawnRangeZ));
+            //int animalIndexLeft  = Random.Range(0, animalPrefabs.Length);
+            //Instantiate(animalPrefabs[animalIndex], spawnPos, animalPrefabs[animalIndex].transform.rotation);
+   // }
 }
