@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class DetectCollision : MonoBehaviour
 {
-    public int score = 0;
+
+    PlayerController playerController ;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        
+        playerController = GameObject.Find("Player").GetComponent<PlayerController>();
     }
 
     // Update is called once per frame
@@ -25,8 +26,9 @@ public class DetectCollision : MonoBehaviour
             Destroy(gameObject);
             Destroy(other.gameObject);
             
-            Debug.Log("Score: " + score);
-            score += 1;
+            
+            playerController.score += 1;
+            Debug.Log("Score: " + playerController.score);
         }
     }
 }

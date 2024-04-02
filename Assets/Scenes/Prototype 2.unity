@@ -330,6 +330,10 @@ MonoBehaviour:
   - {fileID: 6524315025205261478, guid: 52581f1152e394e1d8021ea3ed7d3534, type: 3}
   - {fileID: 28770465504602638, guid: 4686f42a828134988b799019688e3ae9, type: 3}
   - {fileID: 9193286296938387676, guid: f9dab3ce236cc4471b8a0a221c9d244a, type: 3}
+  animalPrefabsSideways:
+  - {fileID: 9193286296938387676, guid: f9dab3ce236cc4471b8a0a221c9d244a, type: 3}
+  - {fileID: 28770465504602638, guid: 4686f42a828134988b799019688e3ae9, type: 3}
+  - {fileID: 6524315025205261478, guid: 52581f1152e394e1d8021ea3ed7d3534, type: 3}
 --- !u!4 &427527101
 Transform:
   m_ObjectHideFlags: 0
@@ -444,10 +448,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   horizontalInput: 0
   verticalInput: 0
-  speed: 9
+  speed: 15
   xRange: 16
   yRange: 9
   zRange: 16
+  score: 0
   projectilePrefab: {fileID: 8422251071989318892, guid: 5df466bc5569b4fbb8ba8296d6ebdaff, type: 3}
 --- !u!65 &523902362
 BoxCollider:
